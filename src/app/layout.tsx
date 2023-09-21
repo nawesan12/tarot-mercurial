@@ -21,10 +21,11 @@ export default function RootLayout({
     <html lang="es">
       <body className={inter.className}>
         <InstagramBanner />
-        <section className="lg:grid lg:grid-cols-9 lg:grid-rows-3 min-h-screen pt-10">
+        <h1>Muy pronto, Tarot Mercurial :)</h1>
+        {/* <section className="lg:grid lg:grid-cols-9 lg:grid-rows-3 min-h-screen pt-10">
           <MainMenu />
           <main className="lg:col-span-7 p-4">{children}</main>
-        </section>
+        </section> */}
       </body>
     </html>
   );
